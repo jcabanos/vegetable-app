@@ -1,2 +1,2 @@
 # vegetable-app
-Initial website draft to support CSA vegetable bags distributions.
+Sample website draft to support CSA vegetable bags distributions.
