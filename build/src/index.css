@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #111835;
+}
+
+html,
+body,
+div#root {
+  height: 100%;
+  overflow: auto;
+}
+
+.App {
+  padding-left: 25px;
+  padding-right: 25px;
+  background-size: cover;
+  background-repeat: repeat;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(254, 255, 213, 0.75),
+      rgba(248, 252, 197, 0.5)
+    ),
+    url(./BackgroundImg.jpg);
+  height: 100%;
+  overflow: auto;
+}
+
+h1 {
+  padding-top: 25px;
+  text-align: center;
+  font-size: 4em;
+}
+
+.SearchBar {
+  display: block;
+  background-color: transparent;
+  text-align: center;
+  height: 40px;
+  margin: 0px 0 40px 0;
+  padding-top: 40px;
+}
+
+.SearchBar input {
+  height: 90%;
+  width: 25vw;
+}
+
+.IngredientDiv {
+  text-align: center;
+  padding: 10px;
+  margin: 5px;
+  border: solid transparent 1px;
+  background-color: #ffd62c;
+  height: 90%;
+}
+
+.IngredientImg {
+  max-height: 40%;
+  max-width: 50%;
+  margin-top: 5%;
+}
+
+.IngredientName {
+  font-size: 2rem;
+  margin: 5px 10%;
+}
+
+.IngredientDesc {
+  font-size: 0.8rem;
+  margin: 5px 10% 2.5%;
+}
+
+.IngredientVideoLink {
+  text-decoration: none;
+  color: #fff;
+  padding: 0.5em 2em 0.5em 2em;
+  border-radius: 2em;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-size: 0.75rem;
+  font-weight: 200;
+  background-color: #111835;
+  text-align: center;
+  transition: all 0.2s;
+}
+
+a:hover {
+  background-color: #1d2b68;
+}
+
+.ParentGrid:nth-child(2n) Div {
+  background-color: #8adbb2;
+}
